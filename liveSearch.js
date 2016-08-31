@@ -142,7 +142,7 @@ angular.module("LiveSearch", ["ng"])
             };
 
             var itemTemplate = element.attr("live-search-item-template") || "{{result}}";
-            var template = "<ul ng-show='visible' ng-style=\"{'top':top,'left':left,'width':width}\" class='searchresultspopup'><li ng-class=\"{ 'selected' : isSelected($index) }\" ng-click='select($index)' ng-repeat='result in results'>" + itemTemplate + "</li></ul>";
+            var template = "<ul ng-show='visible && results.length > 0' ng-style=\"{'top':top,'left':left,'width':width}\" class='searchresultspopup'><li ng-class=\"{ 'selected' : isSelected($index) }\" ng-click='select($index)' ng-repeat='result in results'>" + itemTemplate + "</li></ul>";
             var searchPopup = $compile(template)(scope);
 
             /** FIND THE PARENT MODAL TO APPEND TO, OTHERWISE APPEND TO BODY **/
