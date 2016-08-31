@@ -1,0 +1,32 @@
+{
+  "name": "angular-livesearch",
+  "version": "1.0.0",
+  "description": "angular-live-search ===========",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-util": "^0.5.5",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "uglify": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeanTeam/angular-livesearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeanTeam/angular-livesearch/issues"
+  },
+  "homepage": "https://github.com/MeanTeam/angular-livesearch#readme"
+}
